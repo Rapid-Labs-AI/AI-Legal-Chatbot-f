@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  color: #02073E;
+}
+
+.background_container{
+  background-image: url('./Top\ section.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner-icon img{
+  width: 84px;
+  height: 84px;
+}
+
+.solution-cards .card-icon{
+  width: 50px!important;
+  height: 50px!important;
+  margin-bottom: 10px !important;
+}
+
+.footer-main-tag{
+  width: 100%;
+  background-image: url('./Footer\ Legal.png');
+  background-size: cover; 
+  background-position: center; 
+}
+
+.bot-img-float{
+  background-color: #ECECEC;
+  margin-top: -175px;
+}
+
+.send-btn{
+  background-color: #124EAC2E;
+}
+.close-icon-floating-bot{
+  margin-top: -190px;
+  position: absolute;
+  background-color: #fff;
+}
