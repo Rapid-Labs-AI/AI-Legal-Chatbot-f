@@ -53,16 +53,19 @@ export default function Nav() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
         <a href="#" className="text-sm font-semibold leading-6 text-blue-900">
-            Product
+            Home
+          </a>
+          <a href="#" className="text-sm font-semibold leading-6 text-blue-900">
+            About us
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-blue-900">
             Features
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-blue-900">
-            Marketplace
+            Testimonials
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-blue-900">
-            Company
+            FAQs
           </a>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -95,7 +98,13 @@ export default function Nav() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Product
+                  Home
+                </a>
+                <a
+                  href="#"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  About us
                 </a>
                 <a
                   href="#"
@@ -107,13 +116,13 @@ export default function Nav() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Marketplace
+                  Testimonials
                 </a>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Company
+                  FAQs
                 </a>
               </div>
               <div className="py-6">

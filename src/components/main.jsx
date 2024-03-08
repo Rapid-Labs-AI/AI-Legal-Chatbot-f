@@ -38,10 +38,10 @@ export default function Main () {
                         <img className='card-icon' src={require('../7.png')} alt="Unable to load" />
                         <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900">24/7 Support</h6>
                         <p className="font-normal text-gray-700 dark:text-gray-400">Always there for you, offering emotional support and conversation anytime you need it.</p>
-                        <a href="#" class="inline-flex font-medium items-center mt-5 text-blue-600 hover:underline">
+                        <a href="#" className="inline-flex font-medium items-center mt-5 text-blue-600 hover:underline">
                             Learn more
-                            <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
+                            <svg className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
                             </svg>
                         </a>
                     </div>
@@ -51,10 +51,10 @@ export default function Main () {
                         <img className='card-icon' src={require('../Personialized Insights.png')} alt="Unable to load" />
                         <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900">Personalized Insights</h6>
                         <p className="font-normal text-gray-700 dark:text-gray-400">Synced from a Windows, Mac, or Ubuntu Linux computer to the cloud and vice versa without any problems.</p>
-                        <a href="#" class="inline-flex font-medium items-center mt-5 text-blue-600 hover:underline">
+                        <a href="#" className="inline-flex font-medium items-center mt-5 text-blue-600 hover:underline">
                             Learn more
-                            <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
+                            <svg className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
                             </svg>
                         </a>
                     </div>
@@ -64,10 +64,10 @@ export default function Main () {
                         <img className='card-icon' src={require('../Confidential Conversation.png')} alt="Unable to load" />
                         <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900">Secure Conversations</h6>
                         <p className="font-normal text-gray-700 dark:text-gray-400">Keep track of your emotional well-being with intuitive mood logs and receive insights to improve your mental health.</p>
-                        <a href="#" class="inline-flex font-medium items-center mt-5 text-blue-600 hover:underline">
+                        <a href="#" className="inline-flex font-medium items-center mt-5 text-blue-600 hover:underline">
                                 Learn more
-                                <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
+                                <svg className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
                                 </svg>
                         </a>
                     </div>
@@ -77,10 +77,10 @@ export default function Main () {
                         <img className='card-icon' src={require('../Resource Libraray.png')} alt="Unable to load" />
                         <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900">Resource Library</h6>
                         <p className="font-normal text-gray-700 dark:text-gray-400">Access a curated selection of articles, videos, and exercises designed to support your mental health journey.</p>
-                        <a href="#" class="inline-flex font-medium items-center mt-5 text-blue-600 hover:underline">
+                        <a href="#" className="inline-flex font-medium items-center mt-5 text-blue-600 hover:underline">
                             Learn more
-                            <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
+                            <svg className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
                             </svg>
                         </a>
                     </div>
