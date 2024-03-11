@@ -13,8 +13,8 @@ export default function Chatbot() {
             <div className="chats">
                 <div className="userchat flex items-end justify-end mb-7">
                     <div className="userchat-bg">
-                        <div className="userchat-text text-light">
-                           <p className="m-0 text-light">What are the symptoms of the heart attack?</p> 
+                        <div className="userchat-text">
+                           <p className="m-0 text-white">What are the symptoms of the heart attack?</p> 
                         </div>
                     </div>
                     <div className="userchat-img ms-2">
