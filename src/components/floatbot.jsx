@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'
 
 export default function Floatbot() {
   const [isOpen, setIsOpen] = useState(true); // Chat card is initially opened.
@@ -16,9 +17,9 @@ export default function Floatbot() {
             <p className="text-gray-500">How can we help you? We are here for you!</p>
             <div className="flex items-end mt-3">
               <input type="text" placeholder="Your message" className="border rounded-lg p-2 text-gray-700 w-full"/>
-              <button type="button" className="send-btn text-white focus:ring-4 font-medium rounded-lg text-sm px-5 py-4 ml-2 focus:outline-none">
+              <Link to='/chat' className="send-btn text-white focus:ring-4 font-medium rounded-lg text-sm px-5 py-4 ml-2 focus:outline-none">
                 <img src={require('../send.png')} alt="Send" />
-              </button>
+              </Link>
             </div>
           </div>
             <button 

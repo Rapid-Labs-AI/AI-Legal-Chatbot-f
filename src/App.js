@@ -1,33 +1,48 @@
 import './App.css';
 import Main from './components/main';
 import Footer from './components/footer';
+import Chatbot from './pages/chatbot';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 
 function App() {
-  const [data, setData] = useState(null);
+  const router = createBrowserRouter([
+    {path: '/chat', element: <><Chatbot/></>},
+    {path: '', element: <><Main /><Footer /></>},
+    {},
 
-  useEffect(() => {
-    // Define the backend API endpoint URL
-    const backendApiUrl = 'http://16.170.236.235:8000/api/';
+  ])
+  // const [data, setData] = useState(null);
 
-    // Make a GET request to the backend
-    axios.get(backendApiUrl)
-      .then(response => {
-        console.log(response);
-        // setData(response.response);
-      })
-      .catch(error => {
-        console.error('Error fetching data:', error);
-      });
-  }, []); // Empty dependency array means this effect runs once when the component mounts
+  // useEffect(() => {
+  //   // Define the backend API endpoint URL
+  //   const backendApiUrl = 'http://16.170.236.235:8000/api/';
+
+  //   // Make a GET request to the backend
+  //   axios.get(backendApiUrl)
+  //     .then(response => {
+  //       console.log(response);
+  //       // setData(response.response);
+  //     })
+  //     .catch(error => {
+  //       console.error('Error fetching data:', error);
+  //     });
+  // }, []); // Empty dependency array means this effect runs once when the component mounts
+  
 
   return (
-    <div>
+    <>
       
-      <Main />
-      <Footer />
-    </div>
+
+      <div>
+        <RouterProvider router={router} />
+
+        
+      </div>
+      
+    </>
   );
 }
 
