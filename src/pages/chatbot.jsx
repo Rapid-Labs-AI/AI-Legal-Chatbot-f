@@ -8,7 +8,7 @@ export default function Chatbot() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://127.0.0.1:8000/api/', { prompt: inputText });
+      const response = await axios.post('http://18.223.109.1:8000/api/', { prompt: inputText });
       const botResponse = response.data.generated_response;
       setChatHistory([...chatHistory, { type: 'user', text: inputText }, { type: 'bot', text: botResponse }]);
       setInputText(''); 
