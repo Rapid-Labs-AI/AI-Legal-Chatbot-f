@@ -11,14 +11,14 @@ function App() {
   const router = createBrowserRouter([
     {path: '/chat', element: <><Chatbot/></>},
     {path: '', element: <><Main /><Footer /></>},
-    {},
+    {path: '/api', element: <><Main /><Footer /></>},
 
   ])
   // const [data, setData] = useState(null);
 
   // useEffect(() => {
   //   // Define the backend API endpoint URL
-  //   const backendApiUrl = 'http://16.170.236.235:8000/api/';
+  //   const backendApiUrl = 'http://127.0.0.1:8000/api/';
 
   //   // Make a GET request to the backend
   //   axios.get(backendApiUrl)
