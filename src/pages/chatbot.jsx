@@ -8,14 +8,23 @@ export default function Chatbot() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://18.223.109.1:8000/api/', { prompt: inputText });
-      const botResponse = response.data.generated_response;
+      const response = await axios.post('http://3.133.184.5/api/', { query: inputText }, {
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
+      });
+      
+      const botResponse = response.data.response;
       setChatHistory([...chatHistory, { type: 'user', text: inputText }, { type: 'bot', text: botResponse }]);
       setInputText(''); 
+      console.log(inputText); // Log inputText instead of prompt
+      console.log(response);
+      console.log(response.data.response);
     } catch (error) {
       console.error('Error:', error);
     }
   };
+  
 
   return (
     <div className="chatbot_main_container bg-image">

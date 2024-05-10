@@ -2,8 +2,8 @@ import './App.css';
 import Main from './components/main';
 import Footer from './components/footer';
 import Chatbot from './pages/chatbot';
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+// import React, { useEffect, useState } from 'react';
+// import axios from 'axios';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 
