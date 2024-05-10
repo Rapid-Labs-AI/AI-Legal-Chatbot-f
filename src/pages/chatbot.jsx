@@ -62,6 +62,7 @@ export default function Chatbot() {
                         onChange={(e) => setInputText(e.target.value)}
                         className="p-3 w-full"
                         placeholder="Type a new message here..."
+                        required
                       />
                     </div>
                     <div className="prompt-btn">
